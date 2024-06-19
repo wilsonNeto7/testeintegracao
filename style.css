@@ -1,0 +1,51 @@
+html,body{
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://res.cloudinary.com/codier/image/upload/v1690396428/ojina4hvc5zgc7ts0gvj.jpg');
+    background-repeat: no-repeat;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
+  .container{
+    margin-top: 120px;
+    margin-right: 100px;
+  }
+  #Nome{
+    border-radius: 4px;
+    border: #a9a9ad 2px solid;
+    font-size: 20px;
+  }
+  #Numero{
+    border-radius: 4px;
+    border: #a9a9ad 2px solid;
+    font-size: 20px
+  }
+  #E-mail{
+    border-radius: 4px;
+    border: #a9a9ad 2px solid;
+    font-size: 20px
+  }
+  button{
+    width: 90px;
+    border-radius: 4px;
+    border: #a9a9ad 2px solid;
+  }
+   button:hover {
+  background-color: #f4f4f7;
+  color:#747475;
+   }
+  
+  form{
+    background-color: #e3e3ed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    padding: 1em 1em;
+   border-radius: 1em;
+   border: 1px dotted violet
+  }
